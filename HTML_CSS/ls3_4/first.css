@@ -1,0 +1,64 @@
+strong {
+    color: yellow;
+}
+
+/* i {
+    color: aqua;
+} */
+
+.cAq {
+    color: aqua;
+}
+
+#uniqColor {
+    color: blueviolet;
+}
+
+#secondC {
+    color: chocolate;
+}
+
+.bigText {
+    font-size: 20px;
+    /* color: black; */
+}
+
+
+p {
+    color: aqua;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-break: normal;
+    line-height: 2em;
+}
+
+#kub {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    margin: 25px;
+    padding: 15px;
+}
+
+.k1 {
+    /* width: 100px;
+    height: 100px;
+    background-color: blue;  */
+}
+
+.text {
+    background-color: red;
+    margin: 25px;
+    padding: 25px;
+}
+
+
+.k3 {
+    width: 0;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+
