@@ -1,0 +1,24 @@
+.myList {
+    /* list-style-type: none; */
+    /* display: flex; */
+    /* list-style-image: url('./images.jpg'); */
+}
+
+/* .myList li {
+    margin: 15px 10px;
+} */
+
+.m2 {
+    /* list-style-position: outside; */
+    /* list-style-position: inside; */
+
+    /* list-style:armenian inside; */
+
+    /* font-size: ; */
+    /* font-family: ; */
+    /* font-weight: ; */
+}
+
+body {
+    background-color: green;
+}
