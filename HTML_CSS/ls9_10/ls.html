@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* table {
+            border: 1px solid black;
+        }
+
+        td {
+            border: 1px solid black;
+        } */
+
+        /* table {
+            border-collapse: collapse;
+        } */
+
+        .tb td {
+            padding: 10px;
+        }
+
+        .tb tbody {
+            background-color: green;
+        }
+
+        .tb1 td:nth-child(2\n) {
+            background-color: aqua;
+        }
+
+        .tb1 td:nth-child(2\n+1) {
+            background-color: yellow;
+        }
+
+        .tb1 td:nth-child(2\n+3) {
+            background-color: blue;
+        }
+
+    </style>
+
+    <!-- <table border="1">
+        <tr>
+            <td>
+                <div>
+                    sfdsf
+                </div>
+            </td>
+            <td>
+                DJGJDJ
+            </td>
+            <td>
+                dsgfksg
+            </td>
+        </tr>
+        <tr>
+            <td>fbhd</td>
+            <td> sdmgks</td>
+            <td>ddd</td>
+        </tr>
+        <tr>
+            <td>dgklfg</td>
+            <td>ddd</td>
+            <td><b>dgdg</b></td>
+        </tr>
+    </table> -->
+
+
+    <table border="1">
+        <thead>
+            <tr>
+              <th> Brand </th>
+              <th> Model </th>
+              <th height="80" width="100"> Price </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Xiomi </td>
+                <td> Note 13</td>
+                <td> 300$ </td>
+            </tr>
+            <tr>
+                <td> Samsung </td>
+                <td width="160" height="60" align="end"> J7 </td>
+                <td valign="bottom"> 300$ DFKBFKJDKJBGKBkhbdfkhgbkhdfbgdfgdfbkgdf fjdgnjkdfg fdgkdfbgnkdfj </td>
+                <!-- <td>dsgf</td> -->
+            </tr>
+            <tr>
+                <td> Apple </td>
+                <td> Iphone 12 </td>
+                <td> 400$ </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>3 Models</th>
+                <th> Total price: </th>
+                <th> 1000$ </th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+
+    <table border="1" class="tb">
+        <tbody>
+            <tr>
+                <td> 1 </td>
+                <td rowspan="2" colspan="2"> 2 </td>
+                <!-- <td> 3 </td> -->
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <!-- <td> 5 </td> -->
+                <!-- <td> 6 </td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td> 7 </td>
+                <td> 8 </td>
+                <td> 9 </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+    <table class="tb1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>

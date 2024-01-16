@@ -1,0 +1,18 @@
+:hover
+
+transition
+
+transform - scale, rotate, translate, skew
+
+filter:
+grayscale()
+opacity()
+blur()
+brightness()
+drop-shadow()
+
+keyframes, animation
+
+path
+
+selectors

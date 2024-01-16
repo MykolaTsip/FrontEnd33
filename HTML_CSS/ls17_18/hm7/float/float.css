@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+ol {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    list-style: none;
+    padding: 20px 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+ol li {
+    display: inline;
+    margin: 10px 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+
+.main {
+    margin-top: 100px;
+}
+
+.k {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.a1 {
+    float: left;
+}
+
+.a2 {
+    float: left;
+}
+
+.a3 {
+    float: left;
+}
+
+.a4 {
+    float: left;
+}

@@ -1,0 +1,23 @@
+
+
+// .dgdf() {}
+
+@mixin myFlex ($justyfy: flex-start, $align: flex-start, $wrap: wrap) {
+    display: flex;
+
+    flex-wrap: $wrap;
+
+    @if $justyfy {
+        justify-content: $justyfy;   
+    } @else {
+        background-color: aqua;
+    }
+
+    @if $align {
+        align-items: $align;
+    }
+
+    // justify-content: $justyfy;
+    // align-items: $align;
+}
+    

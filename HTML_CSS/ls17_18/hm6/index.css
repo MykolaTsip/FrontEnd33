@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 2em;
+    word-spacing: 15px;
+    word-break: break-all;
+    color: blue;
+    background-color: black;
+}

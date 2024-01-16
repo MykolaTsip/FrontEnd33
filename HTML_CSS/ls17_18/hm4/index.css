@@ -1,0 +1,128 @@
+h2 {
+    text-align: center;
+}
+
+.kub {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    transition: 1.5s;
+}
+
+.kub:hover {
+    background-color: red;
+}
+
+#el {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 2s;
+}
+
+#el:hover {
+    transform:  translate(100px, 200px);
+}
+
+.text {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    overflow: hidden;
+    animation: 3s task3 infinite;
+}
+
+.text p, .text i {
+    font-weight: 600;
+    color: white;
+    animation: 3s text3 infinite;
+}
+
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation: 3s tocircly infinite;
+}
+
+.rot {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100px;
+    padding: 30px;
+    animation: 5s rotate2 infinite;
+}
+
+
+@keyframes task3 {
+    0% {
+        width: 150px;
+        height: 150px; 
+        background-color: white;
+    }
+
+    50% {
+        width: 200px;
+        height: 200px;
+        background-color: silver;
+    }
+
+    100% {
+        width: 220px;
+        height: 220px;
+        background-color: red;
+    }
+}
+
+@keyframes text3 {
+    from {
+        font-weight: 600;
+        color: white;
+    }
+    to {
+        font-size: 24px;
+        color: green;
+    }
+}
+
+@keyframes tocircly {
+    0% {
+
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 20px;
+    }
+    75% {
+        border-radius: 32px;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-color: aqua;
+    }
+}
+
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(5deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(290deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

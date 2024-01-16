@@ -1,0 +1,15 @@
+thead, tfoot {
+    background-color: silver;
+}
+
+td[width] {
+    background-color: blue;
+}
+
+td[width] + td {
+    background-color: yellow;
+}
+
+th[colspan="2"] {
+    background-color: aqua;
+}

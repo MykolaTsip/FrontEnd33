@@ -1,0 +1,126 @@
+
+// @import './stt.sass';
+@import './variables.scss';
+@import './mixin.scss';
+
+$fffg: false;
+
+// div {
+//     font-size: 30px;
+//     border: $borderDef;
+//     padding: $pad;
+
+//     p {
+//         text-decoration: overline;
+//     }
+// }
+
+// i {
+//     color: $gfd;
+// }
+
+.hello {
+    background-color: aqua;
+
+    &_text {
+        font-size: 20px;
+
+        // .hello_text_sp
+        &_sp {
+            color: red;
+        }
+    }
+}
+
+// .hello {
+//     background-color: aqua;
+// }
+
+// .hello .hello_text {
+//     font-size: 20px;
+// }
+
+
+.err {
+    color: red;
+    background-color: aqua;
+
+    .err-e {
+    //     color: red;
+    // background-color: aqua;
+    @extend .err;
+    font-size: 20px;
+    }
+}
+
+
+
+.ex3 {
+    background-color: yellow;
+    @extend .err;
+}
+
+
+.p_k {
+    height: 200px;
+    border: $borderDef;
+    @include myFlex(center, center);
+
+    .k {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 10px;
+    }
+}
+
+
+@function frFun($size: 20) {
+
+    @if $size > 20 {
+        @return 28px
+    } @else {
+        @return 14px
+    }
+
+}
+
+.some_text {
+    $dd: 20px;
+    // font-size: frFun();
+    font-size: $dd;
+
+    // color: if($fffg, red);
+}
+
+
+// .any {
+//     font-size: $dd;
+// }
+
+$rounded-corners: true;
+
+.button {
+  border: 1px solid black;
+  border-radius: if($rounded-corners, 5px, null);
+}
+
+%gfdg {
+    background-color: aquamarine;
+}
+
+.wiii {
+    // background-color: black;
+    @extend %gfdg;
+    width: calc(100% - 100px);
+}
+
+
+
+
+
+
+
+
+
+

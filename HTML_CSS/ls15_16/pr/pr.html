@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header, main, footer, li, div {
+            padding: 5px;
+            border: 2px solid red;
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ol li {
+            margin: 10px auto;
+        }
+
+        div {
+            margin: 10px auto;
+        }
+
+        img {
+            width: 95%;
+            min-width: 250px;
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 800px) {
+            ol li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+            header, footer {
+                /* clear: both; */
+            }
+        }
+
+        @media screen and (min-width: 800px)  {
+            ol li {
+                display: inline;
+                margin: 0 25px;
+            }
+
+            main {
+                display: flex;
+            }
+
+            div {
+                /* display: inline; */
+                /* float: left; */
+                margin: 0;
+                width: 50%;
+            }
+        }
+    </style>    
+
+
+        <header>
+            <nav>
+                <ol>
+                    <li>Головна</li>
+                    <li>Меню</li>
+                    <li>Меню2</li>
+                    <li>Налаштування</li>
+                    <li>Профіль</li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <div class="b_left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab delectus mollitia 
+                dignissimos molestias! Saepe culpa asperiores quo nam, vitae, esse consectetur quasi 
+                iure nihil pariatur impedit deserunt possimus animi molestiae.
+                Labore repellendus quas omnis odit. Neque aut illo beatae quibusdam, sit vel nihil atque 
+                inventore eveniet mollitia pariatur architecto maxime laborum iusto dicta molestiae omnis.
+                 Earum alias assumenda impedit temporibus?
+            </div>
+            <div class="b_right">
+                <img src="../../ls5_6/images.jpg" alt="">
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ol>
+                    <li>Про нас</li>
+                    <li>Головна</li>
+                    <li>Контактна інформація</li>
+                </ol>
+            </nav>
+        </footer>
+</body>
+</html>

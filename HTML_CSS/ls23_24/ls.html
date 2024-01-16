@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        button {
+            padding: 10px 15px;
+            background-color: aqua;
+        }
+
+        input[type="date"] {
+            background-color: aqua;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+
+    #form {
+        border: 2px solid red;
+        border-radius: 8px;
+        width: 70%;
+        margin: 25px auto;
+        padding: 15px;
+    }
+
+    #form div {
+        margin: 15px 0;
+    }
+    </style>
+    <button> Hello </button>
+
+    <input>
+    <input type="text" value="dgs digjosdjojgso" disabled>
+    <input type="button" value="My first btn" disabled>
+    <input type="text" placeholder="Enter you name">
+    <hr>
+    <input type="password" placeholder="password ">
+    <input type="number">
+    <input type="submit" value="dfdg">
+    <hr>
+
+    <input type="color">
+    <input type="image" src="../ls5_6/images.jpg">
+    <input type="file">
+    <input type="hidden">
+    <input type="date">
+    <input type="email">
+    <input type="range">
+    <input type="search">
+    <input type="tel">
+    <input type="url">
+    <hr>
+
+    <input type="checkbox" id="sam" name="ee"> <label for="sam"> Samsung </label>
+    <input type="checkbox" id="xi" name="ee" checked> <label for="xi">Xiomi</label> 
+    <input type="checkbox" id="ip" name="ee"> <label for="ip">Iphone</label>
+
+    <hr>
+
+    <input type="radio" id="y" name="ss"> <label for="y"> Yes</label>
+    <input type="radio" id="n" name="ss" checked>  <label for="n"> No </label>
+    <input type="radio" id="ny" name="ss">  <label for="ny"> Unknow </label>
+
+    <hr>
+    <select>
+        <option value="1"> DJN DNJvjndj </option>
+        <option value="2"> DJN ef </option>
+        <option value="3" selected> DJ </option>
+        <option value="4"> DJN sdf </option>
+    </select>
+
+
+    <hr>
+
+
+    <textarea name="" id="fff" scols="80" row="15"></textarea>
+
+
+    <form action="" id="form" name="firstForm">
+        <div>
+            <label for="name">Enter name</label>
+            <input type="text" placeholder="Enter name" id="name" name="name">
+        </div>
+        <hr>
+        <div>
+            <input type="email" name="e" id="e" placeholder="email">
+        </div>
+        <hr>
+        <div>
+            <label for="pass">Enter password</label>
+            <input type="password" placeholder="Enter Password" id="pass" name="pass">
+        </div>
+        <hr>
+        <div>
+            <label for="age">Enter age</label>
+            <input type="number" placeholder="Enter age" id="age" name="age">
+        </div>
+        <hr>
+        <div>
+            <h3>Your sex</h3>
+            <input type="radio" id="m" name="sex"> <label for="m">Man</label>
+            <input type="radio" id="w" name="sex"><label for="w">Wooman</label>
+        </div>
+        <hr>
+        <div>
+            <h3>Your phone</h3>
+            <input type="checkbox" id="x" name="phone"> <label for="x">Xiomi</label>
+            <input type="checkbox" id="s" name="phone"> <label for="s">Samsung</label>
+            <input type="checkbox" id="i" name="phone"> <label for="i">Iphone</label>
+        </div>
+        <hr>
+
+        <div>
+            <h3>Your employee</h3>
+            <select name="employee" id="e">
+                <option value="f">Front-end</option>
+                <option value="b">Beck-end</option>
+                <option value="d">Designer</option>
+                <option value="fs" selected>Full-Stack</option>
+            </select>
+        </div>
+
+        <hr>
+        <hr>
+
+        <input type="submit" value="Send" name="submit" id="submit_first">
+    </form>
+
+    <hr>
+
+
+    <iframe src="../ls1_2/exmp1.html" width="1000" height="500"></iframe>
+
+
+
+    <iframe src="../ls15_16/pr/pr.html" width="400" height="500"></iframe>
+
+
+    <iframe src="https://www.linkedin.com/feed/" frameborder="0"></iframe>
+
+    <iframe src="https://rozetka.com.ua/mobile-phones/c80003/preset=smartfon;producer=apple,honor,infinix,motorola,nokia,samsung;sort=rank/" frameborder="0"></iframe>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ajXJA85o0yE?si=1gYQRK_dYOUB-bSr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    <iframe src="https://www.facebook.com/" frameborder="0"></iframe>
+
+    <script>
+
+        const a = document.getElementById('fff');
+        console.log(a.attributes);
+
+        // a.onclick = () => a.attributes.rows.nodeValue = 20;
+
+        // a.onclick = () => a.style.width = '2000px';
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Зверстайте все починаючи з секції 5 (Якщо буде адаптивне то +).
+Додайте Версту з попередніх домашніх завдань для повної картини ледінгу
+Посилання на сайт:
+  https://htmldemo.zcubethemes.com/shuvon/shuvon/index4.html
+
+Зверстайте ледінг у Figma:
+https://www.figma.com/file/chRrPa80HJNhntSujPrfDr/Moxa_HW_5?type=design&node-id=21904-2&mode=design&t=lQdlk3KBm38kD4J4-0

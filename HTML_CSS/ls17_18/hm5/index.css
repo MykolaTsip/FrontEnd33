@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    font-size: 20px;
+    padding: 5px;
+    transition: 2s;
+}
+
+table td:hover {
+    background-color: red;
+}
+
+td:nth-child(2n-1) {
+    background-color: yellow;
+}

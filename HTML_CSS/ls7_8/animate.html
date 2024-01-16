@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .kub {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: 1500ms;
+        }
+
+        .kub:hover {
+            /* width: 150px;
+            height: 150px; */
+            background-color: black;
+            /* margin-top: 100px; */
+            /* transition: 1s; */
+            /* transition: 1000ms; */
+
+            /* transform: translate(0, 100px); */
+            /* transform: scale(1.5); */
+            /* transform: rotate(135deg); */
+            /* transform: scale(1.2) translate(100px, 10px); */
+            transform: skew(25deg, 15deg);
+            /* transform: matrix(100px); */
+        }
+
+        .ff {
+            transition: 1500ms;
+            /* filter: grayscale(1); */
+            filter: blur(3px);
+
+        }
+
+        .ff:hover {
+            /* filter: blur(2px); */
+            /* filter: grayscale(0); */
+            /* filter: opacity(.5); */
+            /* filter: brightness(.5); */
+            /* filter: drop-shadow(10px 10px 10px black); */
+        }
+
+        .dd {
+            animation: 1s changeColor infinite;
+        }
+
+        @keyframes changeColor {
+            /* from {
+                color: black;
+                background-color: white;
+            } 
+            to {
+                color: red;
+                background: black;
+            } */
+
+            0% {
+                
+            }
+
+            10% {
+                color: aqua;
+            }
+            30% {
+                color: red;
+            }
+            50% {
+                background-color: black;
+            }
+            100% {
+                color: black;
+            }
+        }
+
+       
+    </style>
+
+
+    <div class="kub">
+
+    </div>
+
+    <p>
+        gdsm;gk;smdk
+    </p>
+
+    <hr>
+
+    <img src="../ls5_6/images.jpg" alt="" class="ff">
+    <img src="../ls5_6/images.jpg" alt="">
+    <hr>
+
+    <div class="dd">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, modi soluta
+         alias sequi aliquid temporibus pariatur accusamus aspernatur vel error corporis 
+         commodi aliquam. Libero explicabo voluptates quis pariatur perferendis aut.
+    </div>
+
+
+</body>
+</html>

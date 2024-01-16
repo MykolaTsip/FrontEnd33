@@ -1,0 +1,4 @@
+
+Зверстайте: навбар, хедер, секцію 1 (Якщо буде адаптивне то +).
+Посилання на сайт:
+  https://htmldemo.zcubethemes.com/shuvon/shuvon/index4.html

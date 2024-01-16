@@ -1,0 +1,42 @@
+
+// h1 {
+//     color: red;
+// }
+
+// p {
+//     color: sienna;
+// }
+
+
+.card {
+    width: calc(30% - 30px);
+    background-color: aqua;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+    &_pict {
+        width: 100%;
+
+        &-size {
+            width: 100%;
+        }
+    }
+
+    &_title {
+        text-align: center;
+    }
+
+    &_cont, &_link {
+        margin: 25px 15px ;
+    }
+}
+
+
+.w-50 {
+    width: 50%;
+}
+
+.cl-gr {
+    color: aqua;
+}

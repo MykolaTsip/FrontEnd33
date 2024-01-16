@@ -1,0 +1,16 @@
+    /* розмір шрифту */
+    font-size: 40px; 
+    /* жирність шр. */
+    font-weight: 800;
+    /* вид шрифту */
+    font-family: 'Courier New', Courier, monospace;
+    /* розміщення шр (поч, сер, кін) */
+    text-align: center;
+    /* висота між рядками */
+    line-height: 2em;
+    /* відступи між словами */
+    word-spacing: 10px;
+    /* колір шр */
+    color: blue;
+    /* фоновий колір */
+    background-color: red;

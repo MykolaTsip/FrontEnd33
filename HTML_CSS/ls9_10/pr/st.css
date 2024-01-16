@@ -1,0 +1,31 @@
+table {
+    width: 370px;
+    margin: 100px auto;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+table td {
+    padding: 20px;
+    transition: 2s;
+}
+
+table td:nth-child(2\n) {
+    background-color: green;
+}
+
+table td:nth-child(2\n + 1) {
+    background-color: blue;
+}
+
+table td:nth-child(2\n + 3) {
+    background-color: aqua;
+}
+
+table td:nth-child(2\n + 4) {
+    background-color: yellow;
+}
+
+table td:hover {
+    background-color: red;
+}

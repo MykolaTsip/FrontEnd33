@@ -1,0 +1,46 @@
+@import './second.less';
+
+body {
+    background-color: @bg_color;
+}
+
+.tt {
+    color: @white;
+    margin: 20px;
+    border: @ssdg;
+}
+
+
+.df(@HelloW: space-around) {
+    display: flex;
+
+    justify-content: @HelloW;
+
+}
+
+
+.rand_text {
+    font-size: 18px;
+    background-color: white;
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+// .rand_text h2 {
+//     font-size: 40px;
+// }
+
+// .rand_text p {
+//     font-size: 20px;
+// }
+
+
+.fll {
+    .df(center);
+}

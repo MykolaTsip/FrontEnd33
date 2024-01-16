@@ -1,0 +1,11 @@
+ol {
+    list-style: none;
+}
+
+ol li {
+    display: inline;
+    margin: 10px 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: aqua;
+}

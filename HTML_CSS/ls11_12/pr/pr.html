@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* global */
+        h2 {
+            text-align: center;
+        }
+
+        /* nav */
+        .nav {
+            list-style-type: none;
+        }
+
+        .nav li {
+            display: inline;
+            margin-left: 30px;
+            padding: 10px 15px;
+            border: 2px solid red;
+            background-color: aqua;
+            color: red;
+            border-radius: 5px;
+        }
+
+        /* tags */
+        .tags ol {
+            margin-left: 100px;
+            background-color: yellowgreen;
+            color: blue;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    
+        /* table  */
+        table {
+            margin: 25px auto;
+        }
+
+        table td, table th {
+            padding: 10px;
+        }
+
+        thead {
+            background-color: green;
+        }
+
+        tbody {
+            background-color: yellow;
+        }
+
+        tfoot {
+            background-color: blue;
+        }
+
+        td {
+            transition: 1.5s;
+            cursor: pointer;
+        }
+
+        td:hover {
+            background-color: brown;
+            transform: scale(1.4);
+        }
+
+        /* kub */
+        .kub {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50px;
+            margin: 50px auto;
+        }
+    </style>
+
+    <nav>
+        <ul class="nav">
+            <li> Головна </li>
+            <li> Не головна </li>
+            <li> Меню </li>
+            <li> Налащтування </li>
+            <li> Профіль </li>
+        </ul>
+        <hr>
+    </nav>
+
+    <main>
+        <section class="tags">
+            <div class="blok_tag">
+                <h2>List of block tags</h2>
+                <ol>
+                    <li> DIV </li>
+                    <li> SECTION </li>
+                    <li> H1 </li>
+                    <li> P</li>
+                    <li> BODY </li>
+                </ol>
+            </div>
+
+            <hr>
+
+            <div class="line_tag">
+                <h2>List of inline tags</h2>
+                <ol>
+                    <li> SPAN </li>
+                    <li> I </li>
+                    <li> STRONG </li>
+                    <li> SUP </li>
+                    <li> SUB </li>
+                </ol>
+            </div>
+            <hr>
+        </section>
+
+        <section class="media">
+            <h2> Media</h2>
+
+            <img 
+                src="https://www.metrowestdailynews.com/gcdn/authoring/2007/03/01/NMWD/ghows-WL-30b34a2e-284f-4e5b-8e38-c782fa475673-dc1c91b3.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp"
+                alt="cat wi hat"
+                width="200"
+            >
+
+            <video width="400" controls loop>
+                <source src="../../ls5_6/cat_-_65438 (1080p).mp4">
+            </video>
+            <hr>
+        </section>
+
+        <section class="tab">
+            <h2>My TABLE</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Brand </th>
+                        <th>Model </th>
+                        <th> Spped </th>
+                        <th> Type </th>
+                        <th> Price </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>bmw</td>
+                        <td>x5</td>
+                        <td>200</td>
+                        <td>dzip</td>
+                        <td>50 000</td>
+                    </tr>
+                    <tr>
+                        <td>audi</td>
+                        <td>q5</td>
+                        <td>200</td>
+                        <td>electro</td>
+                        <td>45 000</td>
+                    </tr>
+                    <tr>
+                        <td>toyota</td>
+                        <td>sprinter</td>
+                        <td>190</td>
+                        <td>cupe</td>
+                        <td>35 000</td>
+                    </tr>
+                </tbody>
+              <tfoot>
+                <tr>
+                    <th>Brands: 3</th>
+                    <th>Models: 3</th>
+                    <th>Avarage: 197.5</th>
+                    <th>Types: 3</th>
+                    <th>Summary: 130 000$</th>
+                </tr>
+              </tfoot>
+            </table>
+            <hr>
+        </section>
+
+        <section>
+            <div class="kub">
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>

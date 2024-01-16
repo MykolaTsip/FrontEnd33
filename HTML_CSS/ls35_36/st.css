@@ -1,0 +1,29 @@
+.card {
+  width: calc(30% - 30px);
+  background-color: aqua;
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+.card_pict {
+  width: 100%;
+}
+.card_pict-size {
+  width: 100%;
+}
+.card_title {
+  text-align: center;
+}
+.card_cont, .card_link {
+  margin: 25px 15px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.cl-gr {
+  color: aqua;
+}
+
+/*# sourceMappingURL=st.css.map */

@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    font-size: 24px;
+}
+
+tr > th {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.header {
+    background-color: green;
+}
+
+#sum {
+    background-color: blue;
+}

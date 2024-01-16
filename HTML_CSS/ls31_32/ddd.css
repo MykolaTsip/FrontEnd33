@@ -1,0 +1,22 @@
+body {
+  background-color: silver;
+}
+.tt {
+  color: #fff;
+  margin: 20px;
+  border: 2px solid red;
+}
+.rand_text {
+  font-size: 18px;
+  background-color: white;
+}
+.rand_text h2 {
+  font-size: 40px;
+}
+.rand_text p {
+  font-size: 20px;
+}
+.fll {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <style>
+        .main {
+            height: 600px;
+            background-color: pink;   
+        }
+
+        .main p {
+            text-align: center;
+        }
+
+        .b1 {
+            width: 70%;
+            height: 300px;
+            background-color: white;
+            margin: 100px auto;
+        }
+
+        .b2 {
+            width: 70%;
+            height: 150px;
+            background-color: black;
+            margin: 0 auto;
+            position: relative;
+            top: 100px;
+        }
+    </style>
+
+    <div class="main">
+        <p> Text </p>
+        <div class="b1">
+            <div class="b2">
+
+            </div>
+        </div>
+    </div> -->
+
+
+    <style>
+        .fgr {
+            display: grid;
+            /* grid-template-columns: .5fr 1fr 2fr; */
+            /* grid-template-columns: auto auto 1fr; */
+            /* grid-template-columns: minmax(200px, 400px) minmax(200px, 400px); */
+            /* grid-template-columns: 300px fit-content(500px); */
+            grid-template-columns: repeat(2, 1fr);
+        
+            grid-template-rows: repeat(2, 50px);
+
+            /* grid-auto-rows: 80px; */
+            /* grid-auto-columns: 60px; */
+        }
+
+        .fgr div {
+            border: 2px solid red;
+        }
+
+        /* ex 2 */
+        .main {
+            display: grid;
+            grid-template-areas: 'head head head'
+                                 'cont cont sideb'
+                                 'cont2 cont2 sideb'
+                                 'foot foot foot';
+        }
+
+        .main div {
+            border: 2px solid aqua;
+            margin: 10px;
+        }
+
+        .head {
+            grid-area: head;
+        }
+
+        .cont {
+            grid-area: cont;
+        }
+
+        .sideb {
+            grid-area: sideb;
+        }
+
+        .foot {
+            grid-area: foot;
+        }
+
+        .cont2 {
+            grid-area: cont2;
+        }
+
+        /* ex 3 */
+        .sgr {
+            display: grid;
+            /* grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 100px); */
+            grid-template: repeat(2, 100px) / repeat(2, 1fr);
+
+            /* justify-items: center; */
+            /* justify-items: end; */
+            /* justify-items: start; */
+
+            /* align-items: center; */
+            /* align-items: start; */
+            /* align-items: end; */
+        }
+
+        .sgr div {
+            border: 2px solid green;
+        }
+
+        /* .kom1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .kom3 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .kom4 {
+            justify-self: end;
+            align-self: center;
+        } */
+
+
+        /* ex 4 */
+        .kom1 {
+            order: 4;
+        }
+
+        .kom2 {
+            order: 3;
+        }
+
+        .kom3 {
+            order: 2;
+        }
+
+        .kom4 {
+            order: 1;
+        } 
+    </style>
+    <div class="fgr">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+
+    <hr>
+    <hr>
+
+    <div class="main">
+        <div class="head">Header</div>
+        <div class="cont">Content</div>
+        <div class="cont2"> 22222222 </div>
+        <div class="sideb">SIDEBAR</div>
+        <div class="foot">Footer</div>
+    </div>
+
+    <hr>
+    <hr>
+    <hr>
+
+
+    <div class="sgr">
+        <div class="kom1">1</div>
+        <div class="kom2">2</div>
+        <div class="kom3">3</div>
+        <div class="kom4">4</div>
+        <!-- <div>5</div>
+        <div>6</div> -->
+    </div>
+</body>
+</html>

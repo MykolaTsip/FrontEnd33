@@ -1,0 +1,55 @@
+.hello {
+  background-color: aqua;
+}
+.hello_text {
+  font-size: 20px;
+}
+.hello_text_sp {
+  color: red;
+}
+
+.err, .ex3, .ex3 .err-e, .err .err-e {
+  color: red;
+  background-color: aqua;
+}
+.err .err-e, .ex3 .err-e {
+  font-size: 20px;
+}
+
+.ex3 {
+  background-color: yellow;
+}
+
+.p_k {
+  height: 200px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.p_k .k {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+.some_text {
+  font-size: 20px;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.wiii {
+  background-color: aquamarine;
+}
+
+.wiii {
+  width: calc(100% - 100px);
+}
+
+/*# sourceMappingURL=st.css.map */
